@@ -1,0 +1,17 @@
+
+
+/* BS Overwrite */
+BODY {padding-top: 70px;}
+
+
+
+/* Site */
+#header {
+	background-color: rgba(255,255,255,0.8);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+#header .bradning {margin: 0;}
+#login-btn {margin-left: 15px;}
+
+.no-result {width: 100%; background-color: white; color: #999;}

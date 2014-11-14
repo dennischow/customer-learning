@@ -1,0 +1,18 @@
+	<!--Site Header Starts-->
+	<header id="header" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<!--Bradning-->
+			<div class="navbar-header">
+				<h1 class="bradning navbar-brand"><a href="#">Angular.js</a></h1>
+			</div>
+			<!--Singin-->
+			<button type="button" id="login-btn" class="btn btn-default navbar-btn pull-right">Sign in</button>
+			<!--Main Nav-->
+			<nav id="navigation" ng-controller="NavigationCotroller" role="navigation">
+				<ul class="nav navbar-nav navbar-right">
+					<li ng-repeat="listItem in navLists"><a href="#/{{ listItem.urlPath }}">{{ listItem.urlTitle }}</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!--Site Header Ends-->
