@@ -1,6 +1,8 @@
 customer-learning
 =================
 
-## Trying Angular.js along with GitHub
+## Purpose : Learning
+
+### Stack : Angular.js and GitHub
 
 For my learning purpose
